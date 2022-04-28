@@ -21,7 +21,7 @@ Es un middleware que permitira la subida de archivos
 Permite la conexion con MongoDB y la creacion de schemas para validar datos
 `npm i mongoose`
 
-### [Instalando dotenv](https://www.npmjs.com/package/dotenv "Instalando dotenv")**Table of Contents**
+### [Instalando dotenv](https://www.npmjs.com/package/dotenv "Instalando dotenv")
 
 Permite la creacion de variables de entorno
 `npm i dotenv`
@@ -45,11 +45,11 @@ Permite visualizar por consola las peticiones que llegan
 Se utiliza para reiniciar el servidor ante cualquier cambio realizado
 `npm i nodemon -D`
 Una vez instaldo, debemos modificar package.json, agregando el comando `"dev": "nodemon {nombre_carpeta}/{archivo_principal}"`; si no se especifica el archivo a ejecutar, buscara en la carpeta el archivo **_index.js_**
-![]('./img/nodemon.png')
+![](./img/nodemon.png)
 al tener instaldo nodemon, para ejecutar el servidor se debe escribir en consola `npm run dev`
 
 Para poder realizar la importacion sin necesidad de utilizar require, debemos modificar package.json, agregando la propiedad `"type": "module",`
-![]('./img/package.png')
+![](./img/package.png)
 
 **_Nota:_** Cuando realicemos la importacion de nuestros propios modulos, tenemos que especificar su extension
 
